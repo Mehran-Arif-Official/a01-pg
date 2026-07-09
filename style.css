@@ -66,3 +66,23 @@ header button{
     margin-top: 20%;
 }
 /* Hero section style end */
+
+/* Meet The Speakers start */
+ h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+.speakers-container{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    margin-top: 20px;
+    gap: 20px;
+    padding: 15px;   
+}
+.speakers img{
+    height: 78%;
+    width: 90%;
+    object-fit: cover;
+}
