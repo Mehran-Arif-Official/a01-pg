@@ -11,21 +11,21 @@
     padding: 15px;
     cursor: pointer;
     text-align: center;
+    font-weight: bold;
 }
 /* button style end */
+
 .btn-normal:hover{
     background-color: #a0a0a0;
-}
-button{
-    margin-right:10px;
 }
 
 /* navbar style css start */
 .nav-parent{
     display: flex;
     justify-content: space-between;
-    margin: 5% 8%;
+    margin: 5%;
     padding: 5% auto;
+    background-color: #ffffff;
 }
 .menu ul{
     list-style: none;
@@ -42,3 +42,27 @@ button{
     color: rgb(20, 20, 208);
 }
 /* navbar style css end */
+
+/* Hero section style start */
+header{
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-section-content {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15%;
+}
+.hero-section-content h1{
+    font-weight: bold;
+    font-size: 5rem;
+}
+header button{
+    display: block;
+    margin: 20px auto;
+    margin-top: 20%;
+}
+/* Hero section style end */
