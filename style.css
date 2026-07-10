@@ -79,7 +79,7 @@
 header{
     background-image: url(./images/banner.jpg);
      background: linear-gradient(to top, rgba(10, 10, 10, 0.8), transparent),
-        url("./images/banner.jpg");
+     url("./images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -187,6 +187,10 @@ li::marker {
     text-align:center;
     align-items: center;
     margin-bottom:40px;
+}
+.schedule p{
+    margin-bottom: 15px;
+    color: #a0a0a0;;
 }
 
 .schedule-item{
