@@ -229,14 +229,15 @@ li::marker {
 }
 .footer-parent p{
     color: #ffffff;
-    padding-left: 5%;
+    padding-left: 18%;
+    text-align: center;
 }
 .footer-parent ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
     gap: 3%;
-    width: 40vh;
+    width: 60vh;
     padding-right: 8%;
     
 }
