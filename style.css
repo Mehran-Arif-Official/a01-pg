@@ -73,6 +73,9 @@
 /* navbar style css end */
 
 /* Hero section style start */
+.italic{
+    font-style: italic;
+}
 header{
     background-image: url(./images/banner.jpg);
     background-repeat: no-repeat;
@@ -81,12 +84,10 @@ header{
 }
 .hero-section-content {
     color: #ffffff;
-    font-weight: bold;
     text-align: center;
     padding-top: 15%;
 }
 .hero-section-content h1{
-    font-weight: bold;
     font-size: 5rem;
 }
 header button{
@@ -132,8 +133,9 @@ header button{
 }
 .speakers p{
     padding-left: 3%;
-    margin-top: 1%;
+    margin-bottom: 2%;
 }
+
 /* Meet The Speakers end*/
 
 /*  Secure Your Spot Start  */
@@ -171,6 +173,10 @@ header button{
 }
 li::marker {
     color: blue;
+}
+.special-design{
+    background-color: #0d1b2a;
+    color: #ffffff;
 }
 /*  Secure Your Spot End */
 
